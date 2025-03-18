@@ -20,4 +20,4 @@ async function syncModels() {
 
 DatabaseAuthenticate()
 ServerStart()
-// syncModels();
+syncModels();
