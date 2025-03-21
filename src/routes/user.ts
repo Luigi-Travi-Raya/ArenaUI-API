@@ -1,7 +1,8 @@
 import Router from "express"
+import handleNewUser from "../controllers/userController"
 
 const UserRoutes = Router()
 
-UserRoutes.get("/test", ()=>{ console.log("hello world")})
+UserRoutes.post("/newUser", handleNewUser)
 
 export default UserRoutes

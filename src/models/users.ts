@@ -55,7 +55,7 @@ interface UserAttributes {
       },
       enterpriseId: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
         references: {
           model: Enterprise,
           key: 'id',
